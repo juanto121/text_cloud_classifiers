@@ -1,0 +1,1 @@
+exports.TextClassifierService = require('./TextClassifierService')
