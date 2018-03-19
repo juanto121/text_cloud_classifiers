@@ -6,6 +6,8 @@ const ClassifierResponse = require('./ClassifierResponse')
 
 module.exports = class TextClassifierService extends Service {
   classify(plaintext) {
-    return new ClassifierResponse()
+    return new Promise((res, rej)=>{
+      res(new ClassifierResponse())
+    })
   }
 }
