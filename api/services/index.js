@@ -1,1 +1,1 @@
-exports.TextClassifierService = require('./TextClassifierService')
+exports.TextClassifierService = require('./classifiers/TextClassifierService')

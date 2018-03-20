@@ -8,4 +8,3 @@ module.exports = class MessageController extends Controller {
     return response
   }
 }
-

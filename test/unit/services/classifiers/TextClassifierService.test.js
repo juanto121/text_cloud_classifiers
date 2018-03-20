@@ -19,7 +19,7 @@ describe('TextClassifierService', () => {
       it('should resolve with an non null object', function () {
         const result = TextClassifierService.classify('some empty text')
         result.then(function(response){
-          expect(null).to.be.a('Object')
+          expect(response).to.be.a('Object')
         })
       })
     })
