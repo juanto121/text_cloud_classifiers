@@ -12,7 +12,7 @@ module.exports = class WatsonConversationTextClassifierEngine extends Classifica
     this.conversation = new watson.ConversationV1({
       username: config.classifiers.watsonConversation.username,
       password: config.classifiers.watsonConversation.password,
-      version_date: config.classifiers.watsonConversation.version
+      version_date: config.classifiers.watsonConversation.versionDate
     })
   }
 
